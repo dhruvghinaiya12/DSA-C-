@@ -10,6 +10,7 @@ int main() {
     int n = arr.size();
 
     k = k % n;
+    cout<<k;
 
     reverse(arr.begin(), arr.end());
 
